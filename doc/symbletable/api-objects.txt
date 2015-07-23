@@ -1,0 +1,13 @@
+backend.sym	backend.sym-module.html
+backend.sym.__package__	backend.sym-module.html#__package__
+backend.sym.SymbleTable	backend.sym.SymbleTable-class.html
+backend.sym.SymbleTable.remove_var	backend.sym.SymbleTable-class.html#remove_var
+backend.sym.SymbleTable.__init__	backend.sym.SymbleTable-class.html#__init__
+backend.sym.SymbleTable.fetch_type	backend.sym.SymbleTable-class.html#fetch_type
+backend.sym.SymbleTable.fetch_var_addr_type	backend.sym.SymbleTable-class.html#fetch_var_addr_type
+backend.sym.SymbleTable.fetch_var_addr	backend.sym.SymbleTable-class.html#fetch_var_addr
+backend.sym.SymbleTable.add_type	backend.sym.SymbleTable-class.html#add_type
+backend.sym.SymbleTable.add_fn	backend.sym.SymbleTable-class.html#add_fn
+backend.sym.SymbleTable.fetch_fn_block	backend.sym.SymbleTable-class.html#fetch_fn_block
+backend.sym.SymbleTable.remove_scope	backend.sym.SymbleTable-class.html#remove_scope
+backend.sym.SymbleTable.add_var	backend.sym.SymbleTable-class.html#add_var

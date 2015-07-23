@@ -1,0 +1,38 @@
+<html><head><title>Epydoc Redirect Page</title>
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="pragma" content="no-cache" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+<!--
+var pages = ["frontend.AST.ProcedurePrototypeNode-c", "frontend.AST.FunctionPrototypeNode-c", "frontend.AST.ProcedureDeclListNode-c", "frontend.AST.FunctionArgsListNode-c", "frontend.AST.FunctionDeclListNode-c", "frontend.AST.TypeDefinitionNode-c", "frontend.AST.ConstExprListNode-c", "frontend.AST.FieldDeclListNode-c", "frontend.AST.ProcedureDeclNode-c", "frontend.AST.CaseExprListNode-c", "frontend.AST.FunctionDeclNode-c", "frontend.AST.ParaDeclListNode-c", "frontend.AST.ParaTypeListNode-c", "frontend.AST.RecordMemberNode-c", "frontend.AST.TypeDeclListNode-c", "frontend.AST.VariableTypeNode-c", "frontend.AST.ArrayMemberNode-c", "frontend.AST.RoutineHeadNode-c", "frontend.AST.SysFunctionNode-c", "frontend.AST.VarDeclListNode-c", "frontend.AST.ConstValueNode-c", "frontend.AST.RecordTypeNode-c", "frontend.AST.SimpleTypeNode-c", "frontend.AST.ArrayTypeNode-c", "frontend.AST.ConstExprNode-c", "frontend.AST.RangeTypeNode-c", "frontend.AST.CaseStmtExpr-c", "frontend.AST.EnumTypeNode-c", "frontend.AST.NameListNode-c", "frontend.AST.StmtListNode-c", "frontend.AST.VariableNode-c", "frontend.AST.ProgramNode-c", "frontend.AST.RoutineNode-c", "frontend.AST.VarDeclNode-c", "frontend.AST.BinaryExpr-c", "frontend.AST.UnaryExpr-c", "frontend.AST.WhileExpr-c", "frontend.AST.CallExpr-c", "frontend.AST.CaseExpr-c", "frontend.AST.ExprList-c", "frontend.AST.ExprNode-c", "frontend.AST.ListNode-c", "frontend.AST.TypeNode-c", "frontend.AST.ASTNode-c", "frontend.AST.ForExpr-c", "frontend.AST.RepExpr-c", "frontend.AST.IfExpr-c", "frontend.AST-m"];
+var dottedName = get_anchor();
+if (dottedName) {
+    var target = redirect_url(dottedName);
+    if (target) window.location.replace(target);
+}
+// -->
+</script>
+
+<h3>Epydoc Auto-redirect page</h3>
+
+<p>When javascript is enabled, this page will redirect URLs of
+the form <tt>redirect.html#<i>dotted.name</i></tt> to the
+documentation for the object with the given fully-qualified
+dotted name.</p>
+<p><a id="message"> &nbsp; </a></p>
+
+<script type="text/javascript">
+<!--
+if (dottedName) {
+    var msg = document.getElementById("message");
+    msg.innerHTML = "No documentation found for <tt>"+
+                    dottedName+"</tt>";
+}
+// -->
+</script>
+
+</body>
+</html>
